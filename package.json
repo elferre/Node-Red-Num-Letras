@@ -2,7 +2,7 @@
   "name": "num-string",
   "version": "0.0.1",
   "description": "Pasar Numero en Letras",
-  "homepage": "https://github.com/elferre/Primero",
+  "homepage": "https://github.com/elferre/Node-Red-Num-Letras",
   "node-red": {
     "nodes": {
       "num-string": "num-string.js"
