@@ -1,0 +1,42 @@
+<script type="text/javascript">
+    RED.nodes.registerType('num-string',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            pesos: {value:"PESOS"},
+            peso: {value:"PESO"},
+            config: { value: "false" },
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"num-string";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="num-string">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-pesos"><i class="fa fa-tag"></i> Pesos</label>
+        <input type="text" id="node-input-pesos" placeholder="PESOS, Dólares, Bolívares, etcs ">
+    </div>
+    <div class="form-row">
+        <label for="node-input-peso"><i class="fa fa-tag"></i> Peso</label>
+        <input type="text" id="node-input-peso" placeholder="PESO, Dólar, Bolivar, etc">
+    </div>
+      <div class="form-row">
+        <label for="node-input-config">
+            <i class="fa fa-tag"></i> Returns Config</label>
+        <input type="checkbox" id="node-input-config" name="config" value="false">
+      </div>
+</script>
+
+<script type="text/html" data-help-name="num-string">
+    <p>Aquí­ mi primer plugin.</p>
+</script>

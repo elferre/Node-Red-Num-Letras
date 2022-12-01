@@ -1,0 +1,17 @@
+{
+  "name": "num-string",
+  "version": "0.0.1",
+  "description": "Pasar Numero en Letras",
+  "homepage": "https://github.com/elferre/Primero",
+  "node-red": {
+    "nodes": {
+      "num-string": "num-string.js"
+    }
+  },
+  "author": "Edgardo Ferreyra",
+  "license": "FERRESOFT",
+  "keywords": [
+    "node-red",
+    "String"
+  ]
+}
